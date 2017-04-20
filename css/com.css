@@ -59,7 +59,7 @@
 }
 .myAccounts{
 	width: 100px;
-	height: 100px;
+	height: 90px;
 	background: #fff;
 	position: absolute;
 	top: 30px;
@@ -68,22 +68,22 @@
 	padding: 5px 0;
 }
 .myAccounts li{
-	font-size: 14px;
+	font-size: 12px;
 	color: #85726c;
 	padding: 3px 10px;
 }
 .services{
 	width: 150px;
-	height: 100px;
+	height: 98px;
 	background: #fff;
 	position: absolute;
 	top: 30px;
 	left: 1044px;
-	padding: 5px 0;
+	padding: 1px 0;
 	display: none;
 }
 .services li{
-	font-size: 14px;
+	font-size: 12px;
 	color: #85726c;
 	padding: 0 10px;
 }

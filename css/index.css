@@ -89,7 +89,7 @@
 	color: #666;
 }
 .selectCenter li{
-	padding: 10px 35px 10px 8px;
+	padding: 8px 35px 10px 8px;
 	border-bottom: 1px solid #ccc;
 }
 .selectCenter li a{
@@ -225,9 +225,6 @@
 .ulTab1 li{
 	padding:6px 0 6px 5px;
 }
-.ulTab1{
-	po
-}
 /*tabRight*/
 .tabRight{
 	float: left;
@@ -238,8 +235,8 @@
 }
 .tabRight .tabSelect li{
 	width: 197px;
-	height: 58px;
-	line-height: 58px;
+	height: 55px;
+	line-height: 55px;
 	text-align: center;
 	background: #f99;
 	float: left;
@@ -257,7 +254,7 @@
 	color: #333;
 }
 .tabRight .tabContent1{
-	height: 325px;
+	height: 335px;
 }
 .tabRight .tabContent1 dl{
 	float: left;
