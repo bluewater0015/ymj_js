@@ -1,0 +1,228 @@
+
+
+.com{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*header*/
+#header{
+	width: 100%;
+	height: 30px;
+	background: #ddd;
+}
+.headerTop{
+	height: 30px;
+	background: #ddd;
+	position: relative;
+}
+.userInfos{
+	width: 60%;
+	float: left;
+}
+.userInfos li{
+	float: left;
+	font-size: 12px;
+	padding: 7px 8px;
+}
+.userInfos li em{
+	color: #c53f4c;
+}
+.userInfos li a{
+	color: #85726c;
+	padding-right: 10px;
+}
+.userInfos li a:hover{
+	color: #c53f4c;
+	text-decoration: underline;
+}
+.siteLinks{
+	width: 40%;
+	float:right;
+}
+.siteLinks li{
+	float: left;
+	font-size: 12px;
+	padding: 8px 0;
+}
+.siteLinks li a{
+	color: #85726c;
+	font-size: 12px;
+	padding: 0 8px;
+	border-right: 1px solid #ccc;	
+}
+.siteLinks li a:hover{
+	color: #c53f4c;
+	text-decoration: underline;
+}
+.siteLinks .setBorder{
+	border-right: none;
+}
+.myAccounts{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left: 837px;
+	display: none;
+	padding: 5px 0;
+}
+.myAccounts li{
+	font-size: 14px;
+	color: #85726c;
+	padding: 3px 10px;
+}
+.services{
+	width: 150px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	top: 30px;
+	left: 1044px;
+	padding: 5px 0;
+	display: none;
+}
+.services li{
+	font-size: 14px;
+	color: #85726c;
+	padding: 0 10px;
+}
+.services li a{
+	display: inline-block;
+	color: #85726c;
+	padding: 2px 5px;
+}
+.active{
+	background: #c53f4c;
+}
+/*logo*/
+#logo{
+	width: 100%;
+	height: 100px;
+	background: #f1eeed;
+}
+.leftLogo{
+	width: 45%;
+	padding:6px 0;
+	float: left;
+}
+.rightSearch{
+	float:right;
+	width: 55%;
+	height: 70px;
+	margin-top: 30px;
+}
+.searchTop{
+	
+}
+.search{
+	float: left;
+}
+.search .find{
+	width: 370px;
+	height: 23px;
+	display: inline-block;
+	padding: 5px;
+	border:1px solid #d00;
+	float: left;    /*解决input之间的间隙*/
+}
+.search .sea{
+	/*margin-left: -10px;*/  /*让第二个input向左移动*/
+	width: 80px;
+	height: 35px;
+	background: #f00;
+	border: 0;
+	display: inline-block; 
+}
+.shopcart{
+	width:110px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 13px;
+	float:left;
+	background: #a48471 url(../img/cart.png) no-repeat 12px 10px;
+	color: #fff;
+	margin-left: 50px;
+	text-align: center;
+}
+.searchBottom li{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 10px;
+	
+}
+.searchBottom li a{
+	font-size: 12px;
+	color: #85726c;
+}
+.searchBottom li a:hover{
+	color: #c53f4c;
+	text-decoration: underline;
+}
+/*nav*/
+#nav{
+	width: 100%;
+	height: 35px;
+	background: #D3161B;
+}
+.nav .selectWine{
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+.nav .selectWine:hover{
+	background: #bc0001;
+}
+.nav .navLinks{
+	width: 800px;
+	height: 35px;
+	float: left;
+	
+}
+.navLinks li{
+	height: 19px;
+	padding: 8px 0;
+	float: left;
+}
+.shuxian{
+	background: url(../img/nav_shuxian.jpg) no-repeat right;
+}
+.navLinks li a{
+	padding: 0 20px;
+	color: #fff;
+	/*background: url(../img/nav_shuxian.jpg) no-repeat right; */
+	/*为什么竖线不能放在a中*/
+}
+.navLinks li:hover{
+	/*左边的竖条压不住 该怎么办？*/
+	margin-left: -2px;
+	background: #bc0001;
+}
+/*banner*/
+#banner{
+	width: 100%;
+	height: 500px;
+	/*background: #f99;*/
+}
+/*content*/
+#content{
+	width: 100%;
+	height: 8166px;
+	/*background: #f9f;*/
+}
+/*promise*/
+#promise{
+	width: 100%;
+	height: 450px;
+	background: #99f;
+}
+/*footer*/
+#footer{
+	widht: 100%;
+	height: 182px;
+	background: yellow;
+}	

@@ -1,0 +1,41 @@
+
+	/*
+	 *	重置样式
+	 *  时间：2017-02-20
+	 * 	作者：王晓
+	 */
+	html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd{
+		margin: 0;
+		padding: 0;
+	}
+	ul,li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	em{
+		font-style: normal;
+	}
+	.bold{
+		font-weight: 900;
+	}
+	.clear{
+		height: 0;
+		clear: both;
+		overflow: hidden;
+	}
+	.clearfix:after{
+		content:".";
+		display: block;
+		clear: both;
+		height: 0;
+		overflow: hidden;
+		visibility: hidden;
+	}
+	.clearfix:before,.clearfix:after{
+		content: "";
+		display: table;
+	}
+	
+	

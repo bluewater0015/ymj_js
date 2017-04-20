@@ -1,0 +1,291 @@
+
+
+/*banner*/
+#banner{
+	width: 100%;
+	height: 500px;
+}
+.bannerList{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.imgList{
+	width: 20000px;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgList li{
+	float: left;
+}
+.imgList li img{
+	height: 500px;
+}
+/*轮播图小原点*/
+.btnList{
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	left: 530px;
+	top: 465px;
+}
+.btnList li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #86685e;
+	border-radius: 100%;
+	margin-left: 10px;
+	color: #fff;
+}
+.bannerList .active{
+	background: #BC0001;
+}
+/*.preBtn{
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #9ff;
+	position: absolute;
+	left: 50px;
+	top: 220px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 900;
+}*/
+/*.nextBtn{
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #9ff;
+	position: absolute;
+	left: 1260px;
+	top: 220px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 900;
+}*/
+.selectCenter{
+	width: 200px;
+	height: 500px;
+	background: #fff;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 74px;
+	
+}
+.selectCenter h4{
+	font-size: 14px;
+	color: #666;
+}
+.selectCenter li{
+	padding: 10px 35px 10px 8px;
+	border-bottom: 1px solid #ccc;
+}
+.selectCenter li a{
+	font-size: 12px;
+	color: #85726c;
+}
+.selectCenter li a:hover{
+	text-decoration: underline;
+}
+.selectCenter .gift{
+	padding: 2px 5px;
+	text-align: center;
+	display: inline-block;
+	background: #BC0001;
+	border-radius: 10%;
+	color: #fff;
+	
+}
+.siteWine{
+	display: none;
+}
+.siteWine li{
+	width: 400px;
+	border-bottom: 1px dashed #ccc;
+	background: #fff;
+}
+.grape{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.chooseWine{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+.foreWine{
+	position: absolute;
+	top: 260px;
+	left: 200px;
+}
+.spiritWine{
+	position: absolute;
+	top: 300px;
+	left: 200px;
+}
+.wineTool{
+	position: absolute;
+	top: 350px;
+	left: 200px;
+}
+.beerWine{
+	position: absolute;
+	top: 400px;
+	left: 200px;
+}
+/*焦点登录导航样式*/
+.focusNav{
+	width: 108px;
+	height: 475px;
+	position: absolute;
+	top: 15px;
+	right: 105px;
+	background: rgba(0,0,0,0.5);
+}
+.focusNav li a{
+	 font-size: 14px;
+	 color: #fff;
+}
+.iconPic{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.iconPic dd{
+	font-size: 14px;
+	color: #fff;
+	margin:10px 0 0 5px;
+	/*text-align: center;*/
+}
+.iconPic dd:hover{
+	text-decoration: underline;
+	color: #D3161B;
+}
+.userNav{
+	width: 100%;
+	border-bottom: 1px dashed #fff;
+	padding-bottom: 10px;
+}
+.userNav li{
+	margin: 5px 0 0 20px;
+	/*text-align: center;*/
+}
+.userNav li a{
+	font-weight: 900;
+	padding: 5px 20px;
+	border-radius: 2px;
+}
+.userNav li a:hover{
+	background: #D3161B;
+	color: #fff;
+	text-decoration: none;
+}
+.myInfos{
+	padding: 0 8px;
+	text-align: center;
+}
+.myInfos li{
+	padding: 10px 0;
+}
+.myInfos li a:hover{
+	color: #D3161B;
+	text-decoration: underline;
+}
+/*content*/
+.tabWine{ 
+	height: 377px;
+}
+/*tabLeft*/
+.tabLeft{
+	width: 200px;
+	height: 377px;
+	float: left;
+	border: 1px solid #ccc;
+}
+.noticeLi li{
+	float: left;
+}
+.noticeLi li a{
+	font-size: 12px;
+	padding: 5px 5px;
+	color: #ccc;
+}
+.ulTab1 li{
+	padding:6px 0 6px 5px;
+}
+.ulTab1{
+	po
+}
+/*tabRight*/
+.tabRight{
+	float: left;
+	width: 990px;
+}
+.tabRight .tabSelect{
+	border-bottom: 2px solid #D3161B;
+}
+.tabRight .tabSelect li{
+	width: 197px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	background: #f99;
+	float: left;
+	margin-right: 1px;
+	
+}
+.tabRight .tabSelect .tabActive{
+	background: #D3161B;
+}
+/*.tabRight .tabSelect li:hover{
+	background: #D3161B;
+}*/
+.tabRight .tabSelect li a{
+	font-size: 22px;
+	color: #333;
+}
+.tabRight .tabContent1{
+	height: 325px;
+}
+.tabRight .tabContent1 dl{
+	float: left;
+	border: 2px solid #ccc;
+	margin: 11px;
+}
+.tabRight .tabContent1 .dl1{
+	margin-left: 20px;
+}
+.tabRight .tabContent1 dl dt{
+	padding: 30px;
+}
+.tabRight .tabContent1 dl dd{
+	background: #ccc;
+	text-align: center;
+}
+/*tabBox*/
+.tabBox{
+	width: 990px;
+	height: 325px;
+	position: relative;
+	overflow: hidden;
+	
+}
+.tabrightSel{
+	width: 990px;
+	height: 10000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
